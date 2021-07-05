@@ -121,3 +121,18 @@
     background-color: #55b776;
 }
 
+
+@media (max-width: 770px) and (min-width:240px) {
+    .info-custom {
+        width: 450px !important;
+        min-width: 250px;
+    } 
+    .form-group {        
+        width: 13rem;        
+    }
+
+    .passos-container {
+        width: 415px;
+        margin-left: 0rem;
+    }
+}
