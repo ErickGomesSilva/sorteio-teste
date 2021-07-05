@@ -1,0 +1,28 @@
+body {
+    padding-bottom: 20px;
+  }
+  
+  .navbar {
+    margin-bottom: 20px;
+    background-color: #884DE0;
+    flex-grow: 0;
+  }
+
+  .logo-nav{
+      width: 15%;      
+  }
+  
+
+  .btn-custom{     
+      border: none;
+      margin-right: 4rem;
+      color: white;
+      font-weight: bolder;
+      background-color: transparent;
+  }
+
+  .btn-container{
+      margin-right: 4rem;
+  }
+
+  
