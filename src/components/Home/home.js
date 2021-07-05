@@ -1,5 +1,6 @@
 import React from 'react';
 import './styles.css'
+import { useLocation } from 'react-router-dom';
 
 function Home() {
   return (
@@ -27,8 +28,10 @@ function Home() {
                           <label htmlFor="exampleInputEmail1">Seu Perfil do Instagram</label>
                           <input type="text" className="form-control" id="exampleInputEmail1" value="gmail.com" />                          
                         </div>                      
-                        <div className="btn-container-home">
-                          <button type="submit" id="continuar" className="btn btn-primary">Continuar</button>
+                        <div className="btn-container-home">                          
+                          <a href="/sorteio" id="continuar" className="btn btn-primary">
+                              Continuar
+                          </a>
                           <button type="submit" id="facebook"className="btn btn-primary">Login com Facebook</button>
                         </div>
                       </form>

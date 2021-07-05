@@ -39,6 +39,7 @@
     border-radius: 10px;
     border:none;
     height: 45px;
+    font-weight: bold;
 }
 
 .btn#facebook{
@@ -49,7 +50,7 @@
 
 .btn#continuar{
     color: #fff;
-    background-color: #884DE0;
+    background-color: #884DE0;    
 }
 
 .form-group{
