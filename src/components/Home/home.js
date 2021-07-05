@@ -25,7 +25,7 @@ function Home() {
                       <form>
                         <div className="form-group custom-cell">
                           <label htmlFor="exampleInputEmail1">Seu Perfil do Instagram</label>
-                          <input type="text" className="form-control" id="exampleInputEmail1"  value="@gmail.com"/>                          
+                          <input type="text" className="form-control" id="exampleInputEmail1" placeholder="@gmail.com" />                          
                         </div>                      
                         <div className="btn-container-home">                          
                           <a href="/sorteio" id="continuar"  className="btn btn-primary">
