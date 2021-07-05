@@ -51,6 +51,7 @@
 .btn#continuar{
     color: #fff;
     background-color: #884DE0;    
+    line-height: 35px;
 }
 
 .form-group{
