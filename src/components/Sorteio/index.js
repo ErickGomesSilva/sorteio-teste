@@ -32,7 +32,7 @@ class Sorteio extends Component {
   sortear = qtdComentarios => {         
     const pessoas = [];  
     for (let index = 0; index < qtdComentarios; index++) {
-        pessoas[index] = {'Nome':'Pessoa '+index, 'Comentario':'Eu vou ganhar'};      
+        pessoas[index] = {'Nome':'Pessoa '+ index+1, 'Comentario':'Eu vou ganhar'};      
     }    
     var RandomNumber = Math.floor(Math.random() * pessoas.length) + 0 ;    
 
