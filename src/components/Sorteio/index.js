@@ -78,7 +78,7 @@ render(){
             <Modal.Body>Quem venceu foi a {this.state.ganhador} com o comentário {this.state.coment}</Modal.Body>
             <Modal.Footer>
               <Button variant="secondary" onClick={this.onCloseModal}>
-                Close
+                Fechar
               </Button>              
             </Modal.Footer>
           </Modal>
