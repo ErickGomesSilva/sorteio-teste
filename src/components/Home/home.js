@@ -1,8 +1,7 @@
-import React from 'react';
+import React, {useState } from 'react';
 import './styles.css'
-import { useLocation } from 'react-router-dom';
 
-function Home() {
+function Home() { 
   return (
     <>
         <div className="info-custom">
@@ -26,10 +25,10 @@ function Home() {
                       <form>
                         <div className="form-group custom-cell">
                           <label htmlFor="exampleInputEmail1">Seu Perfil do Instagram</label>
-                          <input type="text" className="form-control" id="exampleInputEmail1" value="gmail.com" />                          
+                          <input type="text" className="form-control" id="exampleInputEmail1"  value="@gmail.com"/>                          
                         </div>                      
                         <div className="btn-container-home">                          
-                          <a href="/sorteio" id="continuar" className="btn btn-primary">
+                          <a href="/sorteio" id="continuar"  className="btn btn-primary">
                               Continuar
                           </a>
                           <button type="submit" id="facebook"className="btn btn-primary">Login com Facebook</button>

@@ -1,0 +1,31 @@
+.info-custom{
+    background-color: white;
+    border-radius: 5px;
+    height: 600px;
+    width: 750px;
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    border: 2px solid rgb(213, 208, 208);
+    border-radius: 5px;   
+    overflow-x: scroll;   
+}::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+.text-container{
+    text-align: center;
+}
+
+h2{
+    margin-top: 15px;
+    font-weight: 800 !important;
+}
+
+h4{
+    font-size: 1rem;
+    font-style: italic;
+    padding-left: 10px;
+}
